@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>PALWO</title>
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<!--
+		<meta name="csrf-param" content="authenticity_token">
+		<meta name="csrf-token" content="TODO">
+	-->
+	<script defer>
+
+	</script>
+	<link rel="stylesheet" type="text/css" href="style/default.css">
+	<style>
+		:root {
+			--voffset:220Q; /* desktop */
+			//--voffset:3ch; /* mobile */
+			--apadding:35Q;	/* air padding */
+			--cpadding:2ch; /* container padding */
+			--epadding:3.5Q; /* each padding */
+			--amargin:3.5Q; /* air margin */
+			--cmargin:0.5Q; /* container margin */
+			--emargin:0.7ch; /* each margin */
+
+
+			--red:;
+			--orange:;
+			--yellow:;
+			--green:#49A456;
+			--blue:#013c88;#003883;#00415d;#04385b;
+
+
+
+		}
+	</style>
+	<style>
+	html,
+	body {max-width:100vw;height:100vh;box-sizing: border-box;margin:0;padding:0;}
+	body * {box-sizing: inherit; margin:0;padding:0;}
+
+	a, a:visited {text-decoration: none;}
+	body *::before,
+	body *::after {
+		//position:absolute;
+		//top:0;
+		//left:0;
+		//bottom:0;
+		//right:0;
+		//width:100%;
+		//height:100%;
+	}
+	table.fullpage {
+		display: grid;
+		//width:100vw;
+		//overflow-x: hidden;
+		//height:100vh;
+		//grid-template-columns: 100%;
+		//grid-template-rows: var(--voffset);
+		//grid-auto-rows: 1fr; 
+	}
+
+	header,main {
+		border:7Q solid var(--blue);
+		border-radius: 14Q;
+		display:grid;
+		//place-items:center;
+	}
+	header {
+		max-height:var(--voffset);
+		height: var(--voffset);
+		//margin: 2ch; /* desktop */
+		margin: 0 3.5Q; /* mobile */
+		margin: var(--emargin) var(--cmargin);
+		margin-top:var(--amargin);
+		padding: var(--cpadding);
+		padding-top: var(--apadding);
+		//box-shadow: 0 3.5Q 7Q #a4a4a44f;
+		position:relative;
+		//opacity:.8;
+		display:grid;
+		grid-auto-columns: 2fr 10fr;
+		background-color: purple;
+	}
+	header::after1 {
+		position:absolute;
+		content: "";
+		opacity:1;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		//outline: 2Q solid blue;
+		z-index:20;
+		
+		box-shadow: 0 5Q 10Q #a4a4a488;
+	}
+	header .donate-btn {
+
+	}
+	header nav {
+		display:grid;
+
+	}
+	main {
+		width:calc(100% - 2 * var(--cmargin));
+		//height:calc(100% - 7Q - var(--voffset));
+		margin: 2ch; /* desktop */
+		margin:3.5Q; /* mobile */
+		margin: var(--cmargin);
+		padding: var(--cpadding);
+		min-height: calc(100vh - var(--voffset) - 70Q);
+		//outline:2Q solid blue;
+		//line-height: 3.0ex;
+	}
+	.inline {
+		margin-left: var(--amargin);
+		margin-right:var(--emargin);
+
+	}
+	.inline-last {
+		margin-left(--emargin);
+		margin-right(--amargin);
+	}
+	.inline:hover ~ .inline-last {
+		//border: var(--amargin) solid var(--blue);
+		//border-radius: var(--amargin);
+		margin-left:0;
+		//margin-right:0;
+	}
+
+
+</style>
+
+</head>
+<body>
+	<table cellspacing="0" cellpadding="0" border="0" width="100%" class="fullpage">
+		<header>PALWO,
+			<nav class="aim_value_motto">
+				<a class="aim" href="#aim">Aim</a>
+				<a class="value" href="#value">Value</a>
+				<a class="motto" href="#motto">Motto</a>
+
+			</nav>
+		</header>
+		<main>
+			<section class="aim_value_motto">
+			<article name="aim">
+			<h1>Aim</h1><p>We are seeking to show the love of God to hopeless kids, pointing them to God the Father of the fatherless.</p>
+			</article>
+			<article name="value">
+			<h1>Value</h1>
+			<p>Giving them skills which can help them to work in future not being dependents, because it's in God's will to work.</p>
+				<p>	Skills for
+					<span class="trained inline skill activity">gardening</span>
+					<span class="needed inline skill activity">carpentry</span>
+					<span class="needed inline skill activity">welding</span>
+					<span class="needed inline skill activity">sewing</span>
+					<span class="needed inline skill activity">rearing animals</span>
+					<span class="needed inline skill activity">poultry</span>
+					<span class="needed inline skill activity">Medical Missionary work</span>
+					<span class="needed inline-last skill activity">builders</span>
+				</p>
+			</article>
+			<article name="motto">
+				<h1>Motto</h1>
+				<blockquote class="motto">The fear of the LORD is the beginning of wisdom</blockquote>
+			</article>
+			</section>	
+			<section class="history">
+				<h1>History</h1>
+				<p class="intro">
+				Background history of how orphans accumulated in this community.</p>
+				<p>In recent years there has been land wrangles among the tribes in this <span class="inline reference">community</span> which lead to fighting using arrows and pangas thus leading to many kids leaving their parents turning into orphans and helpless,
+				so a friend of mine invited me so that we might give hope to these kids pointing them to Christ .</p>
+				<p class="year2016">
+					<!--show project pictures of teaching under tree shades -->
+				Under tree shades we conducted our studies and we started posting on Facebook seeking for help from different brothers and sisters in faith</p>
+				<p class="year2017 year2018">
+					God provided 
+						<span class="inline need provided books">books</span>
+						<span class="inline need provided pens">pens</span>
+						<span class="inline need provided land">land</span>
+						<span class="inline need provided clothes">clothes</span>
+					to our kids via different people.</p>
+				<p> We planted
+						<span class="inline work done">food</span>
+						<span class="inline work done">fruits</span>
+					and established the <span class="inline-last reference place">first chapel</span>
+					</p>
+				<p class="year2019">
+					A friend from <span class="inline reference place">USA Tennesse</span> <span class="reference person malcolm">Malcolm Reedy</span>
+					visited us for two weeks. We did <span class="inline work done medicalmissionary">medical missionary door to door</span>
+					he 
+					<span class="inline work done teaching need provided books pens">taught kids</span>
+					<span class="inline need provided clothes">gave them clothes</span>
+					<span class="inline need provided shoes">shoes</span>
+					<span class="inline established class">three Woody classes</span>
+					<span class="inline-last thanks">Praise Yahweh 🙏</span>
+
+					<p class="year2019">
+					By the end of 2019, we even got one  <span class="inline work established class ready">🧱 brick  classroom</span></p>
+				</p>
+				<p class="year2020">
+					We've got <span class="inline established class">two more classes</span>
+					We're thankful.
+					Continued working 
+				</p>
+
+
+			</section>
+					
+					
+					
+
+		</main>
+		<aside>
+		  <button
+		      class="navbar-toggler"
+		      type="button"
+		      data-toggle="collapse"
+		      data-target="#navbar_supported_content"
+		      aria-controls="navbar_supported_content"
+		      aria-expanded="false"
+		      aria-label="Toggle navigation"
+		  >
+		  <nav id="navbar_supported_content">
+		  	<a class="navlink" href="#"></a>
+		  	<a class="navlink" href="#"></a>
+		  	<a class="navlink" href="#"></a>
+
+		  </nav>
+
+		</aside>
+		<aside>
+			<div >
+
+			</div>
+		</aside>
+		<footer></footer>
+	</table>
+</body>
+</html>
