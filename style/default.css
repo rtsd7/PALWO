@@ -1,0 +1,20 @@
+html,
+body {margin:0;padding:0;box-sizing: content-box;}
+body * {margin:0;padding:0;box-sizing: inherit;}
+
+header {
+	//border:none;
+	//background-color:#537985;
+	//height:80Q;
+}
+.inline {
+	display:inline;
+	
+
+}
+.inline:not(:only-of-type)::after {
+	content: ", ";
+}
+.inline-last::after {
+	content: ".";
+}
